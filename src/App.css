@@ -105,3 +105,106 @@
   background-color: var(--light);
   color: var(--primary);
 }
+
+/* for form section */
+.form-section {
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-heading {
+  text-align: center;
+  font-size: 30px;
+  color: var(--dark);
+  margin-top: 5px;
+}
+
+.form-container {
+  width: 70%;
+  padding: 20px;
+  background-color: var(--dark);
+  margin: auto;
+}
+
+.form-container .form-input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 16px;
+  outline: none;
+}
+
+.form-container .form-input-content{
+  width: 100%;
+  border-radius: 5px;
+  resize: none;
+  padding: 12px;
+  height: 300px;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.form-submit-container {
+  text-align: center;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px;
+  background-color: var(--secondary);
+}
+
+.submit-btn:hover {
+  background-color: var(--primary);
+  cursor: pointer;
+}
+
+/* for comment section */
+.comment-btn {
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 12px;
+}
+.comment-btn:hover {
+    color: var(--secondary);
+    transition: 0.5s;
+}
+
+.comment-content {
+  background: var(--dark);
+  color: var(--light);
+  padding: 5px;
+}
+
+.active{
+    display: block;
+}
+.not-active{
+    display: none;
+}
+
+.post-comment {
+    width: 100%;
+    border-radius: 5px;
+    resize: none;
+    padding: 0px 2px;
+}
+
+.post-btn {
+    padding: 5px;
+    margin: 2px;
+    font-weight: 600;
+}
+
+/* error message */
+
+.error-message {
+  text-align: center;
+  color: red;
+}
