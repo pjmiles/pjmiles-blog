@@ -14,7 +14,7 @@ This is a Blog Site without authentication that interacts with an API on the bac
 API url: [https://blogpostapi1.herokuapp.com/]
 
 ## Project Link
-Live Solution URL: 
+Live Solution URL: [https://pjmiles-blog.vercel.app/]
 
 ## Contributors
 * Boro 0mokugbo Joseph - [Asylcreek]
