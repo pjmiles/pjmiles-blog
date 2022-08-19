@@ -24,7 +24,7 @@ const Blogs = () => {
             <div className="blog-card" key={blog?.id}>
               <h2 className="blog-title">{blog?.title}</h2>
               <div className="blog-content">
-                content <br />
+                <h3>content</h3> <br />{blog?.content}
                 <div className="blog-comment" key={blog?.id}>
                   <button className="comment-btn"> comments</button>
                 </div>
