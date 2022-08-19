@@ -164,3 +164,47 @@
   background-color: var(--primary);
   cursor: pointer;
 }
+
+/* for comment section */
+.comment-btn {
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 12px;
+}
+.comment-btn:hover {
+    color: var(--secondary);
+    transition: 0.5s;
+}
+
+.comment-content {
+  background: var(--dark);
+  color: var(--light);
+  padding: 5px;
+}
+
+.active{
+    display: block;
+}
+.not-active{
+    display: none;
+}
+
+.post-comment {
+    width: 100%;
+    border-radius: 5px;
+    resize: none;
+    padding: 0px 2px;
+}
+
+.post-btn {
+    padding: 5px;
+    margin: 2px;
+    font-weight: 600;
+}
+
+/* error message */
+
+.error-message {
+  text-align: center;
+  color: red;
+}

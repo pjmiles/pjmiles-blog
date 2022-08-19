@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { baseURL } from "../api/axios";
+import { baseURL } from "../api/api";
 
 const CreateBlog = () => {
   const [newBlog, setNewBlog] = useState({ title: "", content: "", name: "" });
