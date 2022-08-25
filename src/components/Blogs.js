@@ -38,8 +38,8 @@ const Blogs = () => {
       console.log(e);
       setError("Error posting comment");
     }
-    setContent("");
     getComments(id);
+    setContent("");
   };
 
   // fetching blogs from API
