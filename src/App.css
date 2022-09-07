@@ -210,8 +210,10 @@
   background: var(--light);
   color: var(--dark-alt);
   height: 50px;
-  /* position: sticky; */
-  /* bottom: 0; */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .footer {
