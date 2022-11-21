@@ -4,11 +4,13 @@ import Blogs from "./components/Blogs";
 import CreateBlog from "./components/CreateBlog";
 import Footer from "./components/Footer";
 import "./App.css";
+import Heading from "./components/Heading";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Heading />
       <Routes>
         <Route exact path="/" element={<Blogs />} />
         <Route path="/create" element={<CreateBlog />} />
