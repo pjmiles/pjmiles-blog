@@ -26,19 +26,24 @@
   color: var(--secondary);
 }
 
-.nav-bar {
+header {
   background-color: var(--dark-alt);
   display: flex;
   position: sticky;
   overflow: hidden;
   top: 0;
-  padding: 20px;
+}
+
+nav {
+  display: flex;
   justify-content: space-between;
+  padding: 20px;
   width: 100%;
 }
 
 .nav-item {
   display: flex;
+  list-style-type: none;
 }
 
 .nav-item a {
@@ -56,7 +61,7 @@
 }
 
 /* heading */
-header {
+.heading-section {
   height: 350px;
   padding: 50px;
   background: var(--dark-alt);
