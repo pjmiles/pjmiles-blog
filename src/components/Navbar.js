@@ -5,7 +5,7 @@ const Navbar = () => {
   const [displayMenu, setDisplayMenu] = useState(false);
 
   const handleToggle = () => {
-    setDisplayMenu((prev) => (!prev));
+    setDisplayMenu((prev) => !prev);
   };
 
   const handleCloseMenu = () => {
@@ -23,14 +23,14 @@ const Navbar = () => {
           <div className={displayMenu ? "hamburger" : "hamburger"}></div>
         </div>
 
-        <ul className="nav-item">
+        <ul className={`${displayMenu ? "show" : "nav-item"}`}>
           <li>
-            <NavLink to="/" className="nav-link">
+            <NavLink to="/" className="nav-link" onClick={handleCloseMenu}>
               Blogs
             </NavLink>
           </li>
           <li>
-            <NavLink to="/create" className="nav-link">
+            <NavLink to="/create" className="nav-link" onClick={handleCloseMenu}>
               New Blog
             </NavLink>
           </li>
