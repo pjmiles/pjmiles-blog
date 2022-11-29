@@ -171,6 +171,12 @@ nav {
   color: inherit;
 }
 
+@media screen and (max-width: 480px) {
+  .heading-section {
+    height: 400px;
+  }
+}
+
 /* Blog styling */
 
 .blog-container {
